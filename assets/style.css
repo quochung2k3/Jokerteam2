@@ -56,6 +56,10 @@ header {
     /* SLIDER */
 .slider {
     position: relative;
+    overflow: hidden;
+}
+.slider ul li img {
+    height: 1000px;
 }
 .slider__heading {
     position: absolute;
